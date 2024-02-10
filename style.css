@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  word-spacing: 0.15rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+}
+
+/***** HEADER Section *****/
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(130.63deg, #0003aa 24.11%, #5b0369 100.86%);
+  padding: 1.5rem 3rem;
+}
+
+header nav .logo img {
+  width: 6rem;
+}
+
+header nav .nav-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .nav-titles li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+header nav .nav-titles li a {
+  color: white;
+  font-size: 0.85rem;
+}
+
+header nav .nav-titles li:last-child {
+  border: 1px solid white;
+  border-radius: 2px;
+  & a {
+    padding: 1.5rem 1.5rem;
+  }
+}
+/***** End HEADER Section *****/
+
+/***** HERO Section *****/
+.hero {
+  background: linear-gradient(130.63deg, #0003aa 24.11%, #5b0369 100.86%);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 8rem;
+  border-radius: 0 0 30px 30px;
+  -webkit-border-radius: 0 0 30px 30px;
+  -moz-border-radius: 0 0 30px 30px;
+  -ms-border-radius: 0 0 30px 30px;
+  -o-border-radius: 0 0 30px 30px;
+}
+
+.hero .hero-img img {
+  width: 20rem;
+}
+
+.hero .content {
+  text-align: left;
+
+  & h1 {
+    width: 30rem;
+    font-size: 50px;
+  }
+
+  & p {
+    margin-top: 20px;
+    width: 24rem;
+  }
+}
+/***** End HERO Section *****/
+
+/***** ABOUT Section *****/
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 11rem;
+  gap: 8rem;
+}
+
+.about .left {
+  width: 90%;
+
+  & h2 {
+    font-size: 2rem;
+  }
+
+  & p {
+    margin-top: 30px;
+  }
+}
+
+.about .right {
+  width: 100%;
+}
+
+.about .card {
+  display: flex;
+  margin-bottom: 25px;
+
+  & .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & h3 {
+      font-size: 1rem;
+    }
+
+    & p {
+      margin-top: 5px;
+      font-size: 0.8rem;
+      word-spacing: 0.3px;
+    }
+  }
+
+  & img {
+    width: 2.6rem;
+    margin-right: 20px;
+  }
+}
+/***** End ABOUT Section *****/
+
+/***** CONTACT Section *****/
+.contact {
+  display: flex;
+  padding: 4rem 11rem;
+  gap: 8rem;
+}
+
+.contact .content {
+  margin-top: 30px;
+  width: 22%;
+
+  & h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  & h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  & p {
+    font-size: 0.7rem;
+    word-spacing: 1px;
+  }
+}
+
+.contact .form input {
+  background-color: #f1f1f1;
+  border: transparent;
+  outline-color: #655dd6;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.contact .form .textarea-message {
+  display: flex;
+  flex-direction: column;
+
+  & label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  & textarea {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: transparent;
+    outline-color: #655dd6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  & button{
+    font-weight: 300;
+    font-size: .8rem;
+    color: white;
+    background-color: #10069F;
+    border: transparent;
+    outline-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 4rem;
+    padding: 8px 60px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    &:hover{
+      cursor: pointer;
+    }
+}
+}
+/***** End CONTACT Section *****/
+
+
+/***** FOOTER Section *****/ 
+
+footer{
+  background-color: #10069F;
+  color: white;
+  display: flex;
+  padding: 4rem 11rem;
+  gap: 8rem;
+
+
+
+}
+
+footer .content {
+  margin-top: 30px;
+  width: 22%;
+
+  & h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  & h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  & p {
+    font-size: 0.7rem;
+    word-spacing: 1px;
+  }
+
+  & img{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+/***** End FOOTER Section *****/
